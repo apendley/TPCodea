@@ -1,7 +1,7 @@
 TPCodea
 =======
 
-Requires TexturePacker 3.0 or greater.
+Requires Codea for iPad and TexturePacker 3.0 or greater.
 
 Installation:
 
