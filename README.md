@@ -1,6 +1,8 @@
 TPCodea
 =======
 
+Requires TexturePacker 3.0 or greater.
+
 Installation:
 
 If you have already set up TexturePacker's exporter directory, skip to step 3. 
