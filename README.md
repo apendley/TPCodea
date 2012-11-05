@@ -36,12 +36,7 @@ After you publish your sprite sheet, you'll have 4 files. For example, if your s
 You can ignore/discard the MySheet@2x.lua file, you won't need it since you checked the "Force identical layout' box in the AutoSD options.
 
 
-Getting the sprite sheets into Codea
+Getting the sprite sheets into Codea and drawing them:
 =
 
-The easiest way is probably using Dropbox. You can place the .png files in the Apps/Codea folder in your dropbox, and sync them in Codea. You can place the .lua file in your public folder, and import it into Codea using http.request(). Or you can just copy and paste the .lua file into a project tab. There are definitely other ways to get your sprite sheets into Codea, use whichever way you think is best. I'll update soon to post step by step methods for getting your sprite sheets into Codea, but for now you're on your own.
-
-Drawing your batched sprites in Codea:
-=
-
-I've added a simple class to render batched sprites using TexturePacker sprite sheets at https://github.com/apendley/CodeaMisc (tpBatch.lua). It's basic at the moment, but it gets the job done. I will be extending the class soon to add more features.
+See https://github.com/apendley/TPCodeaExample for an example of one way to import TexturePacker sprite sheets into your project and use them to render sprites.
