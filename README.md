@@ -31,7 +31,7 @@ After you publish your sprite sheet, you'll have 4 files. For example, if your s
 * MySheet.lua
 * MySheet@2x.lua
 
-You can discard the MySheet@2x.lua file, you won't need it since you checked the "Force identical layout' box in the AutoSD options.
+You can ignore/discard the MySheet@2x.lua file, you won't need it since you checked the "Force identical layout' box in the AutoSD options.
 
 
 Getting the sprite sheets into Codea
