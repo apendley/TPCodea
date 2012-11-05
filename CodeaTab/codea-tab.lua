@@ -4,7 +4,7 @@ tp = tp or {}
 
 tp["{{texture.trimmedName}}"] = {
 	smartUpdateKey="{{smartUpdateKey}}",
-	texture={name="{{texture.trimmedName }}", size={w={{texture.size.width}},h={{texture.size.height}}}},
+	texture={name="{{texture.trimmedName}}", size={w={{texture.size.width}},h={{texture.size.height}}}},
 	frames={{% for sprite in allSprites %}
 		["{{sprite.trimmedName}}"]={ trimmed={{sprite.trimmed}}, rotated={{sprite.rotated}},
 			sourceSize={w={{sprite.untrimmedSize.width}},h={{sprite.untrimmedSize.height}}}, frameSize={w={{sprite.frameRect.width}},h={{sprite.frameRect.height}}},
