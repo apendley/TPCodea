@@ -44,4 +44,4 @@ See https://github.com/apendley/TPCodeaExample for an example of one way to impo
 Notes:
 =
 
-There is a bug in TexturePacker 3.0.1 with the exporters where normalized texture coordinates are output incorrectly. I've worked around this by making the necessary calculations in the exported .lua file (the joys of Lua!). The next version of TexturePacker will include a fix for this bug, at which point I'll update the exporters to dump the normalized coordinates instead of making the calculations in the exported .lua file.
+There is a exporter bug in TexturePacker 3.0.1 where normalized texture coordinates are output incorrectly. I've worked around this by making the necessary calculations in the exported .lua file (the joys of Lua!). The next version of TexturePacker will include a fix for this bug, at which point I'll update the exporters to dump the normalized coordinates instead of making the calculations in the exported .lua file.
