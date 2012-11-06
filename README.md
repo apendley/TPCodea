@@ -59,5 +59,5 @@ See https://github.com/apendley/TPCodeaExamples for examples of how to use the t
 Notes:
 =
 
-* There is a exporter bug in TexturePacker 3.0.1 where normalized texture coordinates are output incorrectly. I've worked around this by making the necessary calculations in the exported Lua table itself (the joys of Lua!). The next version of TexturePacker will include a fix for this bug, at which point I'll update the exporters to dump the normalized coordinates instead of making the calculations in the exported .lua file.
+* There is a exporter bug in TexturePacker 3.0.1 where normalized texture coordinates are output incorrectly. I've worked around this by making the necessary calculations in the exported Lua table itself (the joys of Lua!). The next version of TexturePacker will include a fix for this bug, at which point I'll update the exporters to dump the normalized coordinates instead of making the calculations at run time
 * Andreas Lowe (the creator of TexturePacker) has informed me that he will include these exporters into next version of TexturePacker, so soon they will be built in and it will not be necessary to install them yourself.
