@@ -1,6 +1,6 @@
 #TPCodea
 
-Requires Codea for iPad and TexturePacker 3.0 or greater.
+Requires Codea for iPad and TexturePacker 3.0 or greater. See https://github.com/apendley/TPCodeaExamples for examples of how to use the tpBatch class to batch render sprites in Codea using TexturePacker-generated sprite sheets for both export methods.
 
 ##Installing Codea exporters for TexturePacker
 
@@ -50,11 +50,6 @@ After you publish your sprite sheet, you'll have 4 files. For example, if your s
 
 You can ignore/discard the MySheet@2x.lua file, you won't need it since you checked the "Force identical layout' box in the AutoSD options.
 If you plan on using Dropbox to import your sprite sheet textures, copy both the MySheet.png and MySheet@2x.png files into the Apps/Codea folder in your Dropbox, and sync your Dropbox folder in Codea.
-
-
-##Getting the sprite sheets into Codea and drawing them:
-
-See https://github.com/apendley/TPCodeaExamples for examples of how to use the tpBatch class to batch render sprites in Codea using TexturePacker-generated sprite sheets for both export methods.
 
 Notes:
 =
