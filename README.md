@@ -4,7 +4,7 @@ Requires Codea for iPad and TexturePacker 3.0 or greater.
 
 ##Installing Codea exporters for TexturePacker
 
-If you have already set up TexturePacker's exporter directory, skip to step 3. 
+If you have already set up TexturePacker's custom exporter directory, skip to step 3. 
 
 1. Create a new directory somewhere
 2. Open TexturePacker, and go to Preferences->Settings, and browse to the directory you just created in the Exporter Directory field
