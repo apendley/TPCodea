@@ -54,7 +54,7 @@ If you plan on using Dropbox to import your sprite sheet textures, copy both the
 
 ##Getting the sprite sheets into Codea and drawing them:
 
-See https://github.com/apendley/TPCodeaExamples for examples of how to use the tpBatch class to batch render TexturePacker-generated sprite sheets for both export methods.
+See https://github.com/apendley/TPCodeaExamples for examples of how to use the tpBatch class to batch render sprites in Codea using TexturePacker-generated sprite sheets for both export methods.
 
 Notes:
 =
