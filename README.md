@@ -29,8 +29,8 @@ album import method, you don't need to do anything special in TexturePacker to c
 Just add your double-sized sprites to the sprite sheet in TexturePacker, and export them normally.
 In Codea, simply import the texture and name it with the name that your frame data table is expecting (without the @2x suffix), and select the "Retina" option in the importer, 
 and Codea will automatically create the non-retina version for you. If you plan on using Dropbox to import your 
-sprite sheet textures, use the steps below to have TexturePacker generate the non-retina version of your sprite sheet texture. It is also possible to download and save the texture using http.request() and saveImage(), however I have not tried this yet, so I don't know how this behaves with regard to retina/non-retina versions.
-
+sprite sheet textures, use the TexturePacker's AutoSD feature (detailed below) have TexturePacker generate the non-retina version of your sprite 
+sheet texture. 
 
 ###Using TexturePacker's AutoSD option to generate a non-retina version of your sprite sheet
 
@@ -50,6 +50,12 @@ After you publish your sprite sheet, you'll have 4 files. For example, if your s
 
 You can ignore/discard the MySheet@2x.lua file, you won't need it since you checked the "Force identical layout' box in the AutoSD options.
 If you plan on using Dropbox to import your sprite sheet textures, copy both the MySheet.png and MySheet@2x.png files into the Apps/Codea folder in your Dropbox, and sync your Dropbox folder in Codea.
+
+###Additional option for owners of a retina iPad:
+You can use <code>http.request()</code> and <code>saveImage()</code> to download your sprite sheet texture 
+and save it to your "Documents" or "Dropbox" sprite pack. If using Codea on a retina device, the saveImage() 
+function will create a non-retina version of the sprite sheet automatically. As with the copy/paste and photo album import methods, 
+do not give the image an @2x suffix; saveImage() will do this for you automatically.
 
 Notes:
 =
