@@ -38,7 +38,7 @@
     <rotationDirection>cw</rotationDirection>
 
     <!-- supports npot sizes -->
-    <supportsNPOT>false</supportsNPOT>
+    <supportsNPOT>true</supportsNPOT>
 
     <!-- supports file name stripping (remove .png etc) -->
     <supportsTrimSpriteNames>yes</supportsTrimSpriteNames>
