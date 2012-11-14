@@ -1,6 +1,6 @@
 #TPCodea
 
-Requires Codea for iPad and TexturePacker 3.0 or greater. See https://github.com/apendley/TPCodeaExamples for examples of how to use the tpBatch class to batch render sprites in Codea using TexturePacker-generated sprite sheets for both export methods.
+Requires Codea for iPad and TexturePacker 3.0 or greater. See https://github.com/apendley/TPCodeaExamples for examples of how to use the SpriteBatch class to batch render sprites in Codea using TexturePacker-generated sprite sheets for both export methods.
 
 ##Installing Codea exporters for TexturePacker
 
